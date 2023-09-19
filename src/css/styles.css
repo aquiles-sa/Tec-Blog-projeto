@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", "Helvetica", sans-serif;
+}
+
+header {
+  background-color: #7cff3a;
+  padding: 2rem;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 1rem;
+}
+
+.title-area h1 {
+  font-size: 2.5em;
+}
+
+.title-area span {
+  color: #fff;
+}
+
+.navigation-area {
+  margin-top: 1.5rem;
+}
+
+.navigation-area ul {
+  list-style: none;
+
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navigation-area li {
+  transition: 0.3s;
+}
+
+.navigation-area ul li a {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #000;
+
+  transition: 0.3s;
+}
+
+.navigation-area ul li a:hover {
+  color: #fff;
+  background-color: #2c8400;
+
+  padding: 7px;
+
+  border-radius: 10px;
+}
+
+.navigation-area ul li:hover {
+  transform: translate(0, -5px);
+}
+
+.news-container {
+  background-color: #e7e7e7;
+  width: 680px;
+
+  margin-bottom: 1rem;
+  padding: 1.2rem;
+}
+
+.published-area {
+  margin: 1rem 0;
+}
+
+.published-area h2 {
+  color: #2c8400;
+}
+
+.info-text {
+  margin: 1rem 0;
+}
+
+.info-text a {
+  color: #2c8400;
+  text-decoration: none;
+}
+
+.info-text a:hover {
+  text-decoration: underline;
+}
+
+aside {
+  width: 350px;
+  margin: 0 1rem;
+}
+
+.aside-content {
+  background-color: #f0f0f0;
+
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.title-content {
+  background-color: #cacaca;
+  padding: 10px;
+
+  margin-bottom: 1rem;
+}
+
+.desc-text {
+  margin: 10px 0;
+}
+
+.desc-text p,
+.desc-text a {
+  font-size: 1em;
+}
+
+.desc-text a {
+  text-decoration: none;
+  color: #4ddb06;
+}
+
+.links-area ul {
+  list-style: none;
+}
+
+.links-area ul li {
+  margin-bottom: 0.5rem;
+}
+
+.links-area ul li a {
+  text-decoration: none;
+  color: #4ddb06;
+}
+
+.links-area ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #a5a5a5;
+  width: 100%;
+
+  padding: 1.5rem;
+  text-align: center;
+}
